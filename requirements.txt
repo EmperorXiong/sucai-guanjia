@@ -1,0 +1,7 @@
+# 去重归档助手 依赖（macOS / Apple 芯片）
+# 安装：python3 -m pip install -r requirements.txt
+PySide6>=6.6
+Pillow>=10.0
+imagehash>=4.3
+# HEIC/HEIF 图片支持（iPhone 照片常见格式），装不上也不影响其他格式
+pillow-heif>=0.13; sys_platform == "darwin"
